@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+</body>
+</html>
+<script>
+  let number = 0
+  let result = 0;
+  let string = "";
+  while (number !== -1) {
+      result += number;
+      string = string + " + " + number;
+      number = +prompt("Enter a number");
+  }
+  document.write(string.slice() + " = " + result)
+</script>
